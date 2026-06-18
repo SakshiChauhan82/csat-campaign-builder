@@ -1,0 +1,90 @@
+.styling-panel {}
+
+.section-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 20px 0 10px;
+}
+.section-label:first-child { margin-top: 0; }
+
+.color-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.color-field label {
+  display: block;
+  font-size: 11px;
+  color: #888;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.color-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.color-row input[type="color"] {
+  width: 32px;
+  height: 28px;
+  padding: 2px;
+  border: 1px solid #e0e0ec;
+  border-radius: 6px;
+  cursor: pointer;
+  background: none;
+}
+
+.color-val {
+  font-size: 11px;
+  color: #888;
+  font-family: monospace;
+}
+
+.field {
+  margin-bottom: 12px;
+}
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.field input[type="range"] {
+  width: 100%;
+  accent-color: #6c63ff;
+}
+.field input[type="number"],
+.field select {
+  width: 100%;
+  padding: 7px 10px;
+  font-size: 13px;
+  border: 1px solid #e0e0ec;
+  border-radius: 8px;
+  background: #fafafa;
+  color: #1a1a2e;
+  outline: none;
+  transition: border-color 0.15s;
+  font-family: inherit;
+}
+.field input:focus,
+.field select:focus {
+  border-color: #6c63ff;
+  background: #fff;
+}
+.field strong {
+  color: #6c63ff;
+  font-weight: 600;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}

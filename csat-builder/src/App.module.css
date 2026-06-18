@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 24px;
+  background: #fff;
+  border-bottom: 1px solid #e8e8f0;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: 700;
+  color: #6c63ff;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  font-size: 13px;
+  color: #a0a0b8;
+}
+
+.workspace {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
